@@ -10,6 +10,7 @@
 <body>
 	<%@include file="common/navbar.jsp" %>
 	
+	
 	<div class="container p-5">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
@@ -32,7 +33,7 @@
 								
 								<button type="submit" class="btn bg-primary text-white col-md-12">login</button>
 							</form>
-							<br><span id="singUp" style="display: none">Do't you have an account? <a href="employee?action=signup">signUp</a></span>
+							<br><span id="singUp" style="display: none">Do't you have an account? <a href="employee?operation=signup">signUp</a></span>
 					</div> 
 				</div>
 			</div>
